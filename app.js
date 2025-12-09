@@ -134,7 +134,7 @@ app.use("/listings/:id/reviews",reviewsRouter);
 app.use("/",userRouter);
 
 
-app.get("/",(req,res)=>{
+app.get("/listings",(req,res)=>{
     
     res.send("Root is working");
 })
